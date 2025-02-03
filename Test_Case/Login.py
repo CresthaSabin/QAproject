@@ -6,7 +6,7 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-from Pages.Login import Login
+from Pages.Login import Signin
 
 
 class Test(unittest.TestCase):
@@ -20,8 +20,11 @@ class Test(unittest.TestCase):
 
    def test_loginGB(self):
         driver = self.driver
-        self.lp = Login(driver)
-        self.lp.SigninPage("neneray950@andinews.com","Test123")
+        self.lp = Signin(driver)
+        self.lp.SigninPage()
+        self.lp.credential("neneray950@andinews.com","Test123")
+        time.sleep(3)
+        self.lp.login()
         time.sleep(3)
 
         expected_result = "Qa Project"
