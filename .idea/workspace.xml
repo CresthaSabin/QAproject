@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="113427d5-ce71-46fd-849c-336ff7206381" name="Changes" comment="new changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="113427d5-ce71-46fd-849c-336ff7206381" name="Changes" comment="new changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +19,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -29,12 +32,12 @@
     &quot;assignee&quot;: &quot;CresthaSabin&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/CresthaSabin/QAproject.git&quot;,
-    &quot;accountId&quot;: &quot;20fef2ff-9422-4a8f-afff-1bd705972fa8&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/CresthaSabin/QAproject",
+    "accountId": "30f13c6d-8279-4a4d-acac-250ac64714c1"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -59,31 +62,17 @@
     &quot;Python tests.Python tests for Test Cases;.Test.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for Test Cases;.Test_01.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in AddtoCart.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Addtocart.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in Login.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.Pages.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sushma&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for Login.Test.test_loginGB">
-    <configuration name="Python tests for AddtoCart.TestShopping" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;AddtoCart.TestShopping&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests in Addtocart.py">
     <configuration name="Python tests for Login.Test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Project" />
       <option name="ENV_FILES" value="" />
@@ -129,6 +118,21 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in Addtocart.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_Case/Addtocart.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in Login.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Project" />
       <option name="ENV_FILES" value="" />
@@ -146,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in Addtocart.py" />
+        <item itemvalue="Python tests.Python tests in Login.py" />
         <item itemvalue="Python tests.Python tests for Login.Test.test_loginGB" />
         <item itemvalue="Python tests.Python tests for Login.Test" />
         <item itemvalue="Python tests.Python tests in AddtoCart.py" />
-        <item itemvalue="Python tests.Python tests in Login.py" />
-        <item itemvalue="Python tests.Python tests for AddtoCart.TestShopping" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738561729586</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new changes">
+      <option name="closed" value="true" />
+      <created>1739177789399</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739177789399</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new changes">
+      <option name="closed" value="true" />
+      <created>1739177900653</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739177900653</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
