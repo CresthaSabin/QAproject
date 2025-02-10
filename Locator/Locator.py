@@ -17,6 +17,20 @@ class Locate:
     image2_xpath= '//*[@id="homefeatured"]/li[2]/div/div[2]/h5/a'
     addtocart_xpath='//*[@id="add_to_cart"]/button/span'
 
+    # Checkout
+    checkout_button1_xpath = '//*[@id="layer_cart"]/div[1]/div[2]/div[4]/a/span'
+    checkout_button2_xpath = '//*[@id="center_column"]/p[2]/a[1]/span'
+    checkout_button3_xpath = '//*[@id="center_column"]/form/p/button/span'
+    check_box_xpath = '//*[@id="cgv"]'
+
+    checkout_button4_xpath = '//*[@id="form"]/p/button/span'
+    pay_by_bank_xpath = '//*[@id="HOOK_PAYMENT"]/div[1]/div/p/a/span'
+    confirm_my_order_xpath = '//*[@id="cart_navigation"]/button/span'
+
+
+
+
+
 
 
 
