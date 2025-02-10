@@ -7,9 +7,17 @@ class Locate:
     password_field_id = "passwd"
     login_btn_xpath = '//*[@id="SubmitLogin"]/span'
 
-    # Home Page
-    homepage_logo_xpath = '//*[@id="header_logo"]/a/img'
+    # Add to Cart
+    yourLoga_Logo_id = "header_logo"
+    image1_xpath='//*[@id="blocknewproducts"]/li[1]/div/div[2]/h5/a'
+    addtocart1_xpath='//*[@id="add_to_cart"]/button/span'
+    contshopping_xpath='//*[@id="layer_cart"]/div[1]/div[2]/div[4]/span/span'
+    popular_xpath= '//*[@id="home-page-tabs"]/li[2]/a'
 
-    # Add to Cart Locators
-    product1_xpath = '//*[@id="blocknewproducts"]/li[1]/div/div[1]/div/a[1]/img'
-    addtocart_xpath = '//*[@id="blocknewproducts"]/li[1]/div/div[2]/div[2]/a[1]/span'
+    image2_xpath= '//*[@id="homefeatured"]/li[2]/div/div[2]/h5/a'
+    addtocart_xpath='//*[@id="add_to_cart"]/button/span'
+
+
+
+
+
