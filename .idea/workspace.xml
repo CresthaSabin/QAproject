@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="113427d5-ce71-46fd-849c-336ff7206381" name="Changes" comment="new changes" />
+    <list default="true" id="113427d5-ce71-46fd-849c-336ff7206381" name="Changes" comment="new changes">
+      <change beforePath="$PROJECT_DIR$/.idea/Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locator/Locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Locator/Locator.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +40,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/CresthaSabin/QAproject.git",
-    "accountId": "ba9bf66a-6598-4086-9230-941d6e53aceb"
+    "accountId": "20fef2ff-9422-4a8f-afff-1bd705972fa8"
   }
 }]]></component>
   <component name="ProblemsViewState">
@@ -57,24 +62,26 @@
     "Python tests.Python tests for AddtoCart.TestGB.test_login_gb.executor": "Run",
     "Python tests.Python tests for AddtoCart.TestShopping.executor": "Run",
     "Python tests.Python tests for AddtoCart.TestShopping.test_login_and_add_to_cart.executor": "Run",
+    "Python tests.Python tests for Addtocart.Test.executor": "Run",
     "Python tests.Python tests for Login.Test.executor": "Run",
     "Python tests.Python tests for Login.Test.test_loginGB.executor": "Run",
     "Python tests.Python tests for Test Cases;.Test.executor": "Run",
     "Python tests.Python tests for Test Cases;.Test_01.executor": "Run",
     "Python tests.Python tests in AddtoCart.py.executor": "Run",
     "Python tests.Python tests in Addtocart.py.executor": "Run",
+    "Python tests.Python tests in AllOrder.py.executor": "Run",
     "Python tests.Python tests in Login.py.executor": "Run",
     "Python tests.Python tests in checkout.py.executor": "Run",
     "Python.Pages.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "milan",
+    "git-widget-placeholder": "sabin",
     "ignore.virus.scanning.warn.message": "true",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in checkout.py">
-    <configuration name="Python tests for Login.Test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in AllOrder.py">
+    <configuration name="Python tests for Addtocart.Test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,22 +92,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Login.Test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for Login.Test.test_loginGB" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Login.Test.test_loginGB&quot;" />
+      <option name="_new_target" value="&quot;Addtocart.Test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -116,6 +108,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_Case/Addtocart.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in AllOrder.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_Case/AllOrder.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -151,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in AllOrder.py" />
+        <item itemvalue="Python tests.Python tests for Addtocart.Test" />
         <item itemvalue="Python tests.Python tests in checkout.py" />
         <item itemvalue="Python tests.Python tests in Addtocart.py" />
         <item itemvalue="Python tests.Python tests in Login.py" />
-        <item itemvalue="Python tests.Python tests for Login.Test.test_loginGB" />
-        <item itemvalue="Python tests.Python tests for Login.Test" />
       </list>
     </recent_temporary>
   </component>
