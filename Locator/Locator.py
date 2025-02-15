@@ -28,6 +28,10 @@ class Locate:
     confirm_my_order_xpath = '//*[@id="cart_navigation"]/button/span'
 
 
+    #Show Order
+    show_order_Xpath = '//*[@id="center_column"]/div/div[1]/ul/li[1]/a/span'
+
+
 
 
 
