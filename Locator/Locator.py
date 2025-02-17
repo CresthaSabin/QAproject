@@ -31,6 +31,9 @@ class Locate:
     #Show Order
     show_order_Xpath = '//*[@id="center_column"]/div/div[1]/ul/li[1]/a/span'
 
+    #sign out
+    signout_Xpath = '//*[@id="header"]/div[2]/div/div/nav/div[2]/a'
+
 
 
 
